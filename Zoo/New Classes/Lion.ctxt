@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Lion
+comment0.text=\r\n\ The\ king\ of\ the\ animal\ kingdom\r\n\r\n\ @author\ Derek\ Xu\r\n\ @version\ 9/2/2020\r\n
+comment1.params=
+comment1.target=void\ roar()
+comment2.params=
+comment2.target=void\ kingAround()
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Snake
+comment0.text=\r\n\ Reptile\ with\ no\ legs\r\n\r\n\ @author\ Derek\ Xu\r\n\ @version\ 9/2/2020\r\n
+comment1.params=
+comment1.target=void\ sliter()
+comment2.params=
+comment2.target=int\ getLegNum()
+numComments=3

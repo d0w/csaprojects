@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Bird
+comment0.text=\r\n\ A\ feathered\ friend\r\n\r\n\ @author\ Derek\ Xu\r\n\ @version\ 9/2/2020\r\n
+comment1.params=
+comment1.target=void\ layEggs()
+comment2.params=
+comment2.target=void\ fly()
+numComments=3

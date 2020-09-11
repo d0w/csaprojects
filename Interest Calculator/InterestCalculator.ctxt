@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=InterestCalculator
+comment0.text=\r\n\ Set\ of\ methods\ to\ calculate\ interest\r\n\r\n\ @author\ Derek\ Xu\r\n\ @version\ 9/9/2020\r\n
+comment1.params=p\ r\ t
+comment1.target=double\ simpleInterest(double,\ double,\ int)
+comment2.params=p\ r\ t\ n
+comment2.target=double\ compoundInterest(double,\ double,\ int,\ int)
+numComments=3
