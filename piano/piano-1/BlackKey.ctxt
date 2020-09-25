@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=BlackKey
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BlackKey\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=keyName\ soundFile
+comment1.target=BlackKey(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ key.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Do\ the\ action\ for\ this\ key.\r\n
+comment3.params=
+comment3.target=void\ playSound()
+numComments=4
