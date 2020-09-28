@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Space
+comment0.text=\r\n\ A\ bit\ of\ empty\ space\ for\ bubbles\ to\ float\ in.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Space()
+comment2.params=
+comment2.target=void\ setup()
+comment3.params=
+comment3.target=void\ setupLine()
+numComments=4
