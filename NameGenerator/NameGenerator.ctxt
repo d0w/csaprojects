@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=NameGenerator
+comment0.text=\r\n\ Rap\ names\ name\ generator\ -\ makes\ a\ random\ rap\ name\ based\ on\ your\ input.\r\n\r\n\ @author\ Derek\ Xu/Paris\ Wei\r\n\ @version\ 10/07/2020\r\n
+comment1.params=
+comment1.target=java.lang.String\ getInput()
+comment1.text=\r\n\ Gathers\ input\r\n
+comment2.params=first\ last
+comment2.target=java.lang.String\ genFirstName(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ @param\ String\ firstname,\ String\ lastname\r\n\ Generates\ random\ first\ name.\r\n
+comment3.params=city\ school
+comment3.target=java.lang.String\ genLastName(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ @param\ String\ city,\ String\ school\r\n\ Generates\ random\ last\ name.\r\n
+comment4.params=relative\ friend
+comment4.target=java.lang.String\ genOrigin(java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=void\ main()
+numComments=6
