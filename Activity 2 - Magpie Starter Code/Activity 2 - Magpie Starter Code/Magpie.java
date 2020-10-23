@@ -98,6 +98,9 @@ public class Magpie
         else if (engine.findKeyword(statement, "news") >= 0 || engine.findKeyword(statement, "article") >= 0) {
             response = engine.checkNewsArticle();
         }
+        else if (engine.findKeyword(statement, "time") >= 0 || engine.findKeyword(statement, "date") >= 0) {
+            response = engine.returnDateTime();
+        }
         else
         {
             response = getRandomResponse();

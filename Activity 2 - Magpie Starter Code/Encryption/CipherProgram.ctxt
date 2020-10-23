@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CipherProgram
+comment0.text=\r\n\ Program\ to\ encrypt\ and\ decrypt\ messages\r\n\ \r\n\ @author\ Derek\ Xu\r\n\ \r\n\ @version\ 10/21/2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

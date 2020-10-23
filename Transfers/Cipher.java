@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Cipher {
     public static void main(String[] args) {
         boolean running = true;
@@ -10,13 +12,19 @@ public class Cipher {
 
             if (input.equals("encrypt")) {
                 System.out.print("What would you like to encrypt? ");
-                String message = s.nextLine();
+                String enMessage = s.nextLine();
+                System.out.println(enMessage);
+            }
+            else if (input.equals("decrypt")) {
+                System.out.println("What would you like to decrypt?");
+                String deMessage = s.nextLine();
+                System.out.println(deMessage);
             }
             else if (input.equals("quit")) {
                 break;
             }
             else {
-                System.out.println("Please input a proper command.")
+                System.out.println("Please input a proper command.");
             }
             
 

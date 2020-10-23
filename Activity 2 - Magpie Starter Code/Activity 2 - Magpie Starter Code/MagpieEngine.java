@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.text.SimpleDateFormat;  
+import java.util.Date;  
 /**
  * The brains of the chatbot. Contains advanced NLP methods.
  *
@@ -225,6 +227,9 @@ public class MagpieEngine {
         return response;
     }
 
+    /**
+     * Takes user input and checks to see if article is fake or not
+     */
     public String checkNewsArticle() {
         String response = "";
         String[] words = {"very", "completely", "no", "absolutely", "extremely", 
@@ -235,6 +240,7 @@ public class MagpieEngine {
                 "daily mash", "babylon bee"};
         String[] trustedPublishers = {"new york times", "cnn", "wall street journal", "washington post", "bbc", 
                 "economist", "bloomberg news", "associated press"};
+        //arrays to hold key words that will be searched in queries        
 
         Scanner s = new Scanner(System.in);
         System.out.println("Input the news article name");
@@ -253,7 +259,7 @@ public class MagpieEngine {
         for (int i = 0; i < trustedPublishers.length; i++) {
             if (publisher.equals(trustedPublishers[i])) {
                 response = "Article from a trusted source";
-                trusted = true;
+                trusted = true; //if from trusted source from array list, then trusted is true
                 break;
             }
         }
@@ -265,9 +271,9 @@ public class MagpieEngine {
             }
         }
         if (content.length() > 10) {
-            for (int i = 0; i < words.length; i++) {
+            for (int i = 0; i < words.length; i++) { //loops through keywords list and checks each word in the article
                 if(findKeyword(content, words[i]) >= 0) {
-                    points++;
+                    points++; //adds a point every time unique keyword is found
                 }
             }
         }
@@ -287,4 +293,11 @@ public class MagpieEngine {
 
         return response;
     }
-}
+
+    public String returnDateTime() {  
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");  
+        Date date = new Date();  
+        return(formatter.format(date));  
+    }  
+}  
+
