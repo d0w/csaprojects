@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Cipher {
     public static void main(String[] args) {
-        boolean running = true;
+        String input = "";
         Scanner s = new Scanner(System.in);
 
         System.out.println("Welcome to the Cipher");
-        while (running) {
+        while (!input.equals("quit")) {
             System.out.println("Would you like to encrypt, decrypt, or quit");
-            String input = s.nextLine().trim().toLowerCase();
+            input = s.nextLine().trim().toLowerCase();
 
             if (input.equals("encrypt")) {
                 System.out.print("What would you like to encrypt? ");
@@ -19,9 +19,6 @@ public class Cipher {
                 System.out.println("What would you like to decrypt?");
                 String deMessage = s.nextLine();
                 System.out.println(deMessage);
-            }
-            else if (input.equals("quit")) {
-                break;
             }
             else {
                 System.out.println("Please input a proper command.");

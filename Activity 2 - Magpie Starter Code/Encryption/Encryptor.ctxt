@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Encryptor
+comment0.text=\r\n\ Encrypts\ a\ message\ given\r\n\r\n\ @author\ Derek\ Xu\r\n\ @version\ 10/23/2020\r\n
+comment1.params=
+comment1.target=Encryptor()
+comment2.params=key\ text
+comment2.target=java.lang.String\ encryptCaesar(int,\ java.lang.String)
+comment2.text=\r\n\ Encrypts\ a\ message\ according\ to\ Ceasar\ Cipher\r\n\ \r\n\ @param\ key\ a\ number\ from\ -25\ to\ 25\ used\ to\ encrypt\r\n\ @param\ the\ text\ that\ needs\ to\ be\ encrypted\r\n\ \r\n\ @returns\ the\ encrypted\ message\r\n
+numComments=3

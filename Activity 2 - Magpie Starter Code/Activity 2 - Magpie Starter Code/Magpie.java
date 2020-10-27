@@ -70,6 +70,9 @@ public class Magpie
         else if (engine.findKeyword(statement, "agh") >= 0) {
             response = "What's up";
         }
+        else if (engine.findKeyword(statement, "hello") >= 0) {
+            response = "Hi there";
+        }
         else if (engine.findKeyword(statement, "mother") >= 0
             || engine.findKeyword(statement, "father") >= 0
             || engine.findKeyword(statement, "sister") >= 0
@@ -82,6 +85,9 @@ public class Magpie
         }
         else if (engine.findKeyword(statement, "Mr.") >= 0 || engine.findKeyword(statement, "Ms.") >= 0 || engine.findKeyword(statement, "Mrs.") >= 0) {
             response = "He sounds like a good teacher";
+        }
+        else if(engine.findKeyword(statement, "want to") >= 0) {
+            response = engine.transformIWantToStatement(statement);
         }
         else if(engine.findKeyword(statement, "want") >= 0) {
             response = engine.transformIWantStatement(statement);

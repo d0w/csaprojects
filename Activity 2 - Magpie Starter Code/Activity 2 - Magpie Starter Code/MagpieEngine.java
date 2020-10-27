@@ -103,6 +103,9 @@ public class MagpieEngine {
         }
         int psn = findKeyword (statement, "I want", 0); //finds statement
         String restOfStatement = statement.substring(psn + 6).trim(); // gets everything after the statement
+            if (findKeyword(statement, "you") > 0) {
+                return "Would you really be happy if you had me?";
+            }
         return "Would you really be happy if you had " + restOfStatement + "?"; //prints set phrase with restOfStatement
     }
 
@@ -123,7 +126,11 @@ public class MagpieEngine {
 
         int psnOfYou = findKeyword (statement, "you", 0); // finds position of "you" and sets to int
         int psnOfMe = findKeyword (statement, "me", psnOfYou + 3); //finds position of "me" and sets to int
-
+            
+            if (findKeyword(statement, "are") > 0) {
+                return "What makes you think that I am you?";
+            }
+            
         String restOfStatement = statement.substring(psnOfYou + 3, psnOfMe).trim(); // creates new string which is a substring that gets everything between "you" and "me"
         return "What makes you think that I " + restOfStatement + " you?"; // prints set phrase with restOfStatement
     }
@@ -147,6 +154,9 @@ public class MagpieEngine {
         int psnOfYou = findKeyword (statement, "you", psnOfI + 1); //Finds position of "you"
 
         String restOfStatement = statement.substring(psnOfI + 1, psnOfYou).trim(); //creates new substring that gets everything between I and you.
+            if (findKeyword(statement, "am") > 0) {
+                return "How are you me?";
+            }
         return "Why do you " + restOfStatement + " me?"; // prints set phrase with restOfStatement
     }
 

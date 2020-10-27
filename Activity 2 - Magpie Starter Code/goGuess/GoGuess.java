@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * Program that runs a number guessing game.
+ *
+ * @author Derek Xu
+ * @version 10/26/2020
+ */
+
 public class GoGuess {
     public static void goGuess(int max) {
         int value = (int) ((Math.random() * max) + 1);
@@ -37,8 +44,4 @@ public class GoGuess {
         }
 
     }
-
-    public static void main(String[] args) {
-        goGuess(10);
-    } 
 }
