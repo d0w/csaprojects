@@ -21,6 +21,7 @@ public class Block extends Actor
         checkMouseClick();
         checkLeaf();
         checkPear();
+        turnApple();
     }
 
     /**
@@ -71,6 +72,24 @@ public class Block extends Actor
             pear.move(8);
             if (pear.isAtEdge()) {
                 pear.setLocation(0, getY());
+            }
+        }
+    }
+
+    private void turnApple() {
+        if (this.isTouching(Apple.class)) {
+            List<Apple> appleList = getWorld().getObjects(Apple.class);
+            for (Apple apple : appleList) {
+                apple.turn(90);
+            }
+        }
+    }
+
+    private void movePear() {
+        if (this.isTouching(Pear.class)) {
+            List<Pear> pearList = getWorld().getObjects(Apple.class);
+            for (Pear pear : pearList) {
+                pear.move(4)
             }
         }
     }
