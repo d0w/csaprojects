@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Decryptor
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Decryptor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=key\ text
+comment1.target=java.lang.String\ decryptor(int,\ java.lang.String)
+comment2.params=input\ keyword
+comment2.target=java.lang.String\ deVigenere(java.lang.String,\ java.lang.String)
+numComments=3

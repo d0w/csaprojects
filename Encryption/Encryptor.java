@@ -47,4 +47,19 @@ public class Encryptor
 
         return cipherText;
     }
+
+    public String encryptVigenere(String input, String keyword) {
+        String text = "";
+        for (int i = 0; i < input.length(); i++) {
+            char code = input.charAt(i);
+            char key = keyword.charAt(i);            
+            int number = (code + key) % 26;
+            
+            number += 'A';
+            text += (char)(number);
+        }
+        return text;
+    }
+
 }
+

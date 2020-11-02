@@ -38,7 +38,5 @@ public class GoGuess {
 
     }
 
-    public static void main(String[] args) {
-        goGuess(10);
-    } 
+    
 }

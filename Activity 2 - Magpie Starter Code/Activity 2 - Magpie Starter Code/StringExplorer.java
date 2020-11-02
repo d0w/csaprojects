@@ -35,6 +35,26 @@ public class StringExplorer
         System.out.println(code); //prints code
         System.out.println(letAsStr.compareTo("b"));
         
+        String yes = "yes";
+        System.out.println(yes.length());
+        
+        String str = "apple";
+        String temp = "";
+        for (int i = str.length() - 1; i > 0; i--) {
+            temp += str.substring(i-1, i);
+        }
+        System.out.println(temp);
+        
+        String a = "sing the song";
+        String b = "ng";
+        int x = a.indexOf(b);
+        while (x >= 0) {
+            a = a.substring(0, x) + a.substring(x + b.length());
+            x = a.indexOf(b);
+        }
+        System.out.println(a);
+        
+        
     }
 
 }
