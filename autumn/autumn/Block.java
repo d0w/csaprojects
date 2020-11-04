@@ -22,6 +22,7 @@ public class Block extends Actor
         checkLeaf();
         checkPear();
         turnApple();
+        movePear();
     }
 
     /**
@@ -54,8 +55,11 @@ public class Block extends Actor
         {
             List<Leaf> leafList = getWorld().getObjects(Leaf.class);
             for (Leaf leaf : leafList) { //for each (each leaf in leaf list)
-                leaf.changeImage();
+                if (leaf.getX() < getWorld().getWidth()/2 + 1) {
+                    leaf.changeImage();
+                }   
             }
+
         }
     }
 
@@ -69,7 +73,7 @@ public class Block extends Actor
     private void checkPear() {
         if (this.isTouching(Pear.class)) {
             Pear pear = (Pear)getOneIntersectingObject(Pear.class);
-            pear.move(8);
+            pear.move(2);
             if (pear.isAtEdge()) {
                 pear.setLocation(0, getY());
             }
@@ -87,10 +91,14 @@ public class Block extends Actor
 
     private void movePear() {
         if (this.isTouching(Pear.class)) {
-            List<Pear> pearList = getWorld().getObjects(Apple.class);
+            List<Pear> pearList = getWorld().getObjects(Pear.class);
             for (Pear pear : pearList) {
-                pear.move(4)
+                pear.move(2);
+                if (pear.isAtEdge()) {
+                    pear.setLocation(0, getY());
+                }
             }
+
         }
     }
 }
