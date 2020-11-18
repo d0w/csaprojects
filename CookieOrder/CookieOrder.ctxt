@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CookieOrder
+comment0.text=\r\n\ A\ data\ class\ used\ to\ hold\ cookie\ orders.\r\n\r\n\ @author\ A\ Pittman\r\n\ @version\ Nov\ 2020\r\n
+comment1.params=variety\ numBoxes
+comment1.target=CookieOrder(java.lang.String,\ int)
+comment1.text=Constructs\ a\ new\ CookieOrder\ object
+comment2.params=
+comment2.target=java.lang.String\ getVariety()
+comment2.text=\ @return\ the\ variety\ of\ cookie\ being\ ordered\r\n
+comment3.params=
+comment3.target=int\ getNumBoxes()
+comment3.text=\ @return\ the\ number\ of\ boxes\ being\ ordered\r\n
+numComments=4

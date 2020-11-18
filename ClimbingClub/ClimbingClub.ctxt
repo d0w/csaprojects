@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ClimbingClub
+comment0.text=\r\n\ An\ object\ to\ manage\ climbing\ lists\r\n\r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=ClimbingClub()
+comment1.text=Creates\ a\ new\ ClimbingClub\ object
+comment2.params=climbName\ climbTime
+comment2.target=void\ addClimb(java.lang.String,\ int)
+comment2.text=\ Adds\ new\ climb\ with\ name\ peakName\ and\ time\ climbTime\ to\ the\r\n\ list\ of\ climbs\r\n\ @param\ peakName\ the\ name\ of\ the\ mountain\ peak\ climbed\r\n\ @param\ climbTime\ the\ number\ of\ minutes\ taken\ to\ complete\ the\ climb\r\n
+comment3.params=climbTime\ peakName
+comment3.target=void\ addClimb(int,\ java.lang.String)
+comment3.text=\ Adds\ new\ climb\ with\ name\ peakName\ and\ time\ climbTime\ to\ the\r\n\ list\ of\ climbs\r\n\ @param\ peakName\ the\ name\ of\ the\ mountain\ peak\ climbed\r\n\ @param\ climbTime\ the\ number\ of\ minutes\ taken\ to\ complete\ the\ climb\r\n
+comment4.params=
+comment4.target=void\ printClimbs()
+comment5.params=
+comment5.target=int\ distinctPeakNames()
+comment5.text=@return\ the\ number\ of\ distinct\ names\ in\ the\ list\ of\ climbs
+numComments=6

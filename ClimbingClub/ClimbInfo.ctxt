@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ClimbInfo
+comment0.text=\r\n\ A\ data\ class\ for\ the\ ClimbingClub\ program\r\n\r\n\ @author\ A\ Pittman\r\n\ @version\ Nov\ 2020\r\n
+comment1.params=peakName\ climbTime
+comment1.target=ClimbInfo(java.lang.String,\ int)
+comment1.text=\ Creates\ a\ ClimbInfo\ object\ with\ name\ peakName\ and\ time\ climbTime\r\n\ @param\ peakName\ -\ The\ name\ of\ the\ mountain\ peak\r\n@param\ climbTime\ -\ The\ number\ of\ minutes\ taken\ to\ complete\ the\ climb
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\ \r\n\ @return\ the\ name\ of\ the\ mountain\ peak\r\n
+comment3.params=
+comment3.target=int\ getTime()
+comment3.text=\ \r\n@return\ the\ number\ of\ minutes\ taken\ to\ complete\ the\ climb
+numComments=4

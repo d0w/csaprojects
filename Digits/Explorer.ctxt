@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Explorer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Explorer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ Rules\ for\ ArrayList\r\n\ 1.\ Compensate\ for\ collapses\ /\ mutations\r\n\ 2.\ Must\ import\r\n\ 3.\ Be\ of\ one\ type\r\n\ 4.\ Primitive\ data\ is\ illegal\r\n
+numComments=2

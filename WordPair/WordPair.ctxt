@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WordPair
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ WordPair\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=w1\ w2
+comment1.target=WordPair(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getFirst()
+comment3.params=
+comment3.target=java.lang.String\ getSecond()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

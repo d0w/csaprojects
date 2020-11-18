@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ArrayListExplorer
+comment0.text=\r\n\ A\ class\ to\ explore\ the\ ArrayList\r\n\r\n\ @author\ A\ Pittman\r\n\ @version\ Nov\ 2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ method\r\n
+comment2.params=list
+comment2.target=java.lang.String[]\ listToArray(java.util.List)
+comment2.text=\ Returns\ a\ String\ array\ with\ the\ same\ contents\ in\ the\ same\ order\ as\ list.\r\n\ Precondition\:\ list\ contains\ at\ least\ one\ element.\r\n\ @param\ list\ The\ List\ of\ objects\ being\ converted\ to\ an\ array.\r\n\ @return\ The\ array\ with\ the\ same\ contents\ as\ list.\r\n
+numComments=3
