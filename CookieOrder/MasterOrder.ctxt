@@ -10,4 +10,6 @@ comment2.text=\ Adds\ theOrder\ to\ the\ master\ order.\r\n\ \ \ @param\ theOrde
 comment3.params=
 comment3.target=int\ getTotalBoxes()
 comment3.text=\ @return\ the\ sum\ of\ the\ number\ of\ boxes\ of\ all\ of\ the\ cookie\ orders\r\n
-numComments=4
+comment4.params=cookieVar
+comment4.target=int\ removeVariety(java.lang.String)
+numComments=5
