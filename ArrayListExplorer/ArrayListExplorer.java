@@ -70,4 +70,8 @@ public class ArrayListExplorer
         return array;
     }
 
+
+    int[][] array = new int[2][3];
+    System.out.println(array.length());
+    System.out.println(array[0].length());
 }
