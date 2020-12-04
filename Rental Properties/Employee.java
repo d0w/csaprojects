@@ -14,9 +14,9 @@ public class Employee
     EmploymentStatus status;
     double salary;
 
-    public Employee(int in, String name, double salary) {
+    public Employee(int in, String namein, double salary) {
         emplNmbr = in;
-        name = name;
+        name = namein;
         status = EmploymentStatus.FULLTIME;
         salary = salary;
     }

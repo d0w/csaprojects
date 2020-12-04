@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=RentalProperty
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ RentalProperty\ here.\r\n\r\n\ @author\ Derek\ Xu\r\n\ @version\ 11/30/2020\r\n
+comment1.params=
+comment1.target=RentalProperty()
+comment2.params=
+comment2.target=void\ showListing()
+numComments=3
