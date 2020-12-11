@@ -70,8 +70,11 @@ public class RentalProperty
 
     public void showListing() {
         //loop through varios arrays and print the data
+        System.out.print("\n");
+        System.out.println("#   Type Bedrooms Bathrooms Price");
         for (int i = 0; i < 8; i++) {
-            System.out.println(propertyNumbers[i] + " " + PropertyType.SINGLEFAMILY + " " + bedrooms[i] + " " + bathrooms[i] + " " + monthlyRent[0]);
+            System.out.println(propertyNumbers[i] + "\t" + PropertyType.SINGLEFAMILY
+            + "\t" + bedrooms[i] + "\t" + bathrooms[i] + "\t" + monthlyRent[i]);
         }
     }
 

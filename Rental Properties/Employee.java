@@ -14,11 +14,11 @@ public class Employee
     EmploymentStatus status;
     double salary;
 
-    public Employee(int in, String namein, double salary) {
+    public Employee(int in, String namein, double salaryin) {
         emplNmbr = in;
         name = namein;
         status = EmploymentStatus.FULLTIME;
-        salary = salary;
+        salary = salaryin;
     }
     
 

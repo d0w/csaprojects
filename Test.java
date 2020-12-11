@@ -2,13 +2,12 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        ArrayList<Integer> nums = new ArrayList<Integer>();
-        nums.add(3);
-        nums.add(1);
-        nums.add(4);
-        nums.remove(0);
-        nums.add(5);
-        System.out.print(nums.get(2));
+        int[] arr = {7, 2, 5, 3, 0, 10};
+        for (int k = 0; k < arr.length - 1; k++) {
+            if (arr[k] > arr[k+1]) {
+                System.out.print(k + " " + arr[k] + " ");
+            }
+        }
     }
     //use csa awesome unit 7 for practice
 }

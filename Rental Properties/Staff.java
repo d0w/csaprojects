@@ -8,11 +8,16 @@
 public class Staff
 {
     public static Employee[] employees = new Employee[3];
-    public static void main(String[] args) {
-        
-        
-
-        
+    public static void main(String[] args) { 
+        makeList();
+        for (Employee person : employees) {
+            System.out.println();
+            System.out.println("Employee #: " + person.getEmplNmbr());
+            System.out.println("Full Name:  " + person.getName());
+            System.out.println("Status:     " + person.getStatus());
+            System.out.println("Salary:     " + person.getSalary());
+            System.out.println("-----------------------");
+        }
     }
     
     public static Employee[] makeList() {

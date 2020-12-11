@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ColorPatch
+comment0.text=\r\n\ Rectangle\ of\ Color\r\n\ \r\n\ @author\ Derek\ Xu\ \r\n\ @version\ 12/9/2020\r\n
+comment1.params=
+comment1.target=ColorPatch()
+comment2.params=r\ g\ b\ a
+comment2.target=ColorPatch(int,\ int,\ int,\ int)
+comment2.text=\r\n\ Sets\ the\ image\ color\ \r\n\ @param\ red\ value\r\n\ @param\ green\ value\r\n\ @param\ blue\ value\r\n\ @param\ alpha\ value\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ ColorPatch\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ colorChange()
+comment5.params=
+comment5.target=void\ detectMouse()
+numComments=6
