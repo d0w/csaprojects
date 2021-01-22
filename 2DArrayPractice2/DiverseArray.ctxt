@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DiverseArray
+comment0.text=\r\n\ DiverseArray\ appeared\ on\ the\ AP\ CSA\ exam,\ 2015\ FRQ\ \#1.\r\n\r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=DiverseArray()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DiverseArray\r\n
+comment2.params=arr
+comment2.target=int\ arraySum(int[])
+comment2.text=\r\n\ Calulates\ the\ sum\ of\ all\ the\ integers\ in\ the\ given\ int\ array\r\n\r\n\ @param\ \ int[]\ arr\ -\ a\ one-dimensional\ array\ of\ integers\r\n\ @return\ int\ sum\ -\ the\ sum\ of\ the\ integers\r\n
+comment3.params=arr2D
+comment3.target=int[]\ rowSums(int[][])
+comment3.text=\r\n\ Calulates\ the\ sum\ of\ integers\ in\ each\ row\ of\ a\ 2D\ array\r\n\ assigns\ the\ each\ sum\ to\ the\ corresponding\ index\ of\ a\ 1D\ array.\r\n\ For\ example,\ given\ the\ 2D\ array\ {{1,2},{3,4}}\ returns\ {3,7}\r\n\r\n\ @param\ \ int[][]\ arr2D\ -\ a\ two-dimensional\ array\ of\ integers\r\n\ @return\ int[]\ sums\ -\ an\ array\ containing\ the\ row\ sums\ of\ arr2D\r\n
+numComments=4

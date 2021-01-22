@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Line
+comment0.text=\r\n\ Calculates\ line\ for\ array\ of\ Points\ objects\r\n\r\n\ @author\ Derek\ Xu\r\n\ @version\ 1/20/21\r\n
+comment1.params=arr
+comment1.target=Line(Point[])
+comment2.params=
+comment2.target=void\ printPoints()
+comment3.params=
+comment3.target=void\ line()
+numComments=4

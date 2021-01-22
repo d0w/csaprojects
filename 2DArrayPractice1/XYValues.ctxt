@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=XYValues
+comment0.text=\r\n\ A\ class\ designed\ to\ test\ positional\ values\ to\ see\ if\ they\ represent\ a\ line\r\n\r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=arr
+comment1.target=void\ printPoints(int[][])
+comment1.text=\r\n\ Prints\ the\ array\ 'rows'\ as\ 'columns'\r\n\r\n\ @param\ int[][]\ arr\ -\ a\ 2D\ int\ array\r\n
+comment2.params=arr
+comment2.target=java.lang.String\ printEqn(int[][])
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ arr\ -\ 2D\ int\ array;\ values\ representing\ points\ on\ a\ line\r\n\ @return\ eqn\ -\ A\ String\ representing\ the\ equation\ of\ the\ line\ \r\n\ represented\ by\ the\ points\ in\ the\ array\ in\ the\ for\ y\ \=\ mx\ +\ b\r\n
+comment3.params=
+comment3.target=java.lang.String\ printEqn()
+numComments=4
