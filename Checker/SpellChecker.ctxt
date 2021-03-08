@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SpellChecker
+comment0.text=\r\n\ Checks\ spelling\ of\ certain\ words\ against\ dictionary.txt\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=SpellChecker()
+comment2.params=word
+comment2.target=boolean\ linearSpellCheck(java.lang.String)
+comment2.text=\ This\ uses\ linear\ search\ to\ find\ a\ word\ \r\n\ in\ the\ dictionary\ ArrayList\ and\ also\r\n\ prints\ out\ the\ number\ of\ words\ checked.\r\n\ If\ not\ found,\ word\ is\ misspelled.\r\n
+comment3.params=word
+comment3.target=boolean\ binarySpellCheck(java.lang.String)
+comment3.text=\ This\ uses\ binary\ search\ to\ find\ a\ word\ \r\n\ in\ the\ dictionary\ ArrayList.\r\n\ If\ not\ found,\ word\ is\ misspelled.\r\n\ ADD\ IN\ CODE\ TO\ COUNT\ and\ PRINT\ OUT\ THE\ NUMBER\ OF\ WORDS\ CHECKED\!\r\n
+comment4.params=filename
+comment4.target=java.lang.String[]\ readLines(java.lang.String)
+numComments=5

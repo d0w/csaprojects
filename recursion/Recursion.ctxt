@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Recursion
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Recursion\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ \ \ \ if\ (num\ \=\=\ 1)\ {\r\n\ \ \ \ return\ 1;\r\n\ \ \ \ }\r\n\ \ \ \ else\ {\r\n\ \ \ \ return\ (num\ +\ getTriNum(num\ -\ 1));\r\n\ \ \ \ }\r\n
+comment2.params=a\ end
+comment2.target=java.lang.String\ findLongestL(java.lang.String[],\ int)
+comment3.params=a\ end
+comment3.target=java.lang.String\ findLongest(java.lang.String[],\ int)
+numComments=4

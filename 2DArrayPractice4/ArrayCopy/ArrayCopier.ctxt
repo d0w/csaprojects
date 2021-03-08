@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ArrayCopier
+comment1.params=
+comment1.target=int[]\ cloneArray()
+comment1.text=\r\n\ This\ method\ will\ clone\ arr1\ with\ a\ new\ reference\r\n\ \r\n\ @return\ int[]\ newArr\ -\ an\ actual\ copy\ of\ arr1\ with\ a\ *new*\ reference\r\n
+comment2.params=start1\ start2\ num
+comment2.target=int[]\ copyArray(int,\ int,\ int)
+comment2.text=\r\n\ Ths\ method\ will\ copy\ elements\ from\ arr1\ into\ arr2\r\n\ \r\n\ @param\ int\ start1\ -\ the\ starting\ index\ in\ arr1\r\n\ @param\ int\ start2\ -\ the\ starting\ index\ in\ arr2\r\n\ @param\ int\ num\ -\ the\ number\ of\ elements\ to\ copy\ from\ arr1\ to\ arr2\r\n\ @return\ arr2\ -\ the\ altered\ array\r\n
+comment3.params=start\ end
+comment3.target=int[]\ ArrayCopyLoop(int,\ int)
+comment3.text=\r\n\ Ths\ method\ will\ copy\ elements\ from\ arr1\ into\ a\ new\ array\r\n\ \r\n\ @param\ int\ start\ -\ the\ starting\ index\ in\ arr1\r\n\ @param\ int\ end\ -\ the\ ending\ index\ in\ arr1\r\n\ @return\ newArr\ -\ a\ new\ array\r\n
+numComments=4

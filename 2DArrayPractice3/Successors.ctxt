@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Successors
+comment1.params=row\ col
+comment1.target=Successors(int,\ int)
+comment1.text=\r\n\ Constructor.\ Creates\ a\ scrambled\ array\ of\ consecutive\ ints\r\n\ called\ sArray\ that\ is\ used\ in\ the\ rest\ of\ the\ exercise.\r\n\ \r\n\ @param\ int\ row\ -\ the\ number\ of\ rows\ in\ successor\ array\r\n\ @param\ int\ col\ -\ the\ number\ of\ columns\ in\ successor\ array\r\n
+comment2.params=
+comment2.target=void\ printSuccessor()
+comment2.text=\r\n\ Prints\ out\ the\ successor\ array\ \r\n
+comment3.params=num\ intArr
+comment3.target=Position\ findPosition(int,\ int[][])
+comment3.text=\r\n\ Find\ the\ position\ of\ an\ item\ in\ the\ successor\ array.\r\n\r\n\ @param\ int\ num\ -\ a\ specific\ number\ found\ in\ the\ array\r\n\ @param\ int[][]\ intArr\ -\ the\ successor\ array\r\n\ @return\ position\ -\ the\ position\ of\ the\ int;\ null\ if\ not\ in\ array\r\n
+comment4.params=intArr
+comment4.target=Position[][]\ getSuccessorArray(int[][])
+comment4.text=\r\n\ Takes\ an\ array\ of\ ints\ and\ returns\ an\ array\ of\ the\ same\ dimensions.\r\n\ The\ returned\ array\ replaces\ the\ number\ with\ a\ Position\ object\r\n\ containing\ the\ position\ of\ the\ number's\ successor\ (number\ +\ 1)\r\n\ in\ array\ given\ as\ an\ argument.\r\n\r\n\ @param\ int[][]\ intArr\ -\ the\ scrambled\ array\r\n\ @return\ position\ -\ the\ position\ of\ the\ int;\ null\ if\ not\ in\ array\r\n
+numComments=5

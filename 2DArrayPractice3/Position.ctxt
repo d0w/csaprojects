@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Position
+comment0.text=\r\n\ Constructs\ a\ Position\ object\ with\ row\ r\ and\ column\ c.\r\n\r\n\ @author\ Anthony\ Pittman\r\n\ @version\ 2-19-2018\r\n
+comment1.params=r\ c
+comment1.target=Position(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Position\r\n
+numComments=2
