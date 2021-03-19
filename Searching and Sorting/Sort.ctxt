@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Sort
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Sort\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=elements
+comment1.target=void\ selection(int[])
+comment2.params=elements
+comment2.target=void\ insertion(int[])
+numComments=3
