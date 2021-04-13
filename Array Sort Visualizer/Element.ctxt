@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Element
+comment0.text=\r\n\ An\ element\ of\ the\ array\ to\ be\ sorted.\ The\ Elements\ have\ a\ value\ that\ can\ be\r\n\ used\ for\ sorting.\r\n\ \r\n\ @author\ APittman\r\n\ @version\ March,\ 2021\r\n
+comment1.params=value
+comment1.target=Element(int)
+comment1.text=\r\n\ Create\ an\ element\ with\ a\ given\ value.\ It\ will\ be\ represented\ in\ the\ world\r\n\ as\ a\ vertical\ bar\ with\ a\ height\ proportional\ to\ the\ value.\ \r\n\ \r\n\ @param\ value\ -\ an\ int\ in\ the\ range\ 0\ to\ 255\ inclusive.\r\n
+comment2.params=image\ value
+comment2.target=Element(java.lang.String,\ int)
+comment2.text=\r\n\ Create\ an\ element\ with\ a\ given\ image\ and\ a\ value.\ Used\ in\ the\ animal\ array.\r\n\ \r\n\ @param\ image\ -\ A\ String\ with\ the\ name\ of\ the\ image\ file.\ The\ file\r\n\ must\ be\ in\ the\ images\ subfolder.\ Example\:\ "frog.png"\r\n\ \r\n\ @param\ value\ -\ an\ int\ in\ the\ range\ 0\ to\ 255\ inclusive.\r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\r\n\ Return\ the\ value\ of\ this\ element.\r\n
+comment4.params=val
+comment4.target=void\ setValue(int)
+comment4.text=\r\n\ Change\ value\ of\ this\ element\r\n\ \r\n\ @param\ val\ -\ An\ integer\ value\ between\ 0\ and\ 255\r\n
+numComments=5
