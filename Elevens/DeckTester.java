@@ -24,12 +24,13 @@ public class DeckTester {
         //     System.out.println(cards.toString());
 
         // }
-		while (cards.getSize() > 0) {
-			cards.deal();
+        while (cards.getSize() > 0) {
+            cards.deal();
             System.out.println(cards.toString());
-		}
-        
-        
-    }
+        }
 
+        cards.shuffle();
+        System.out.println(cards.toString());
+
+    }
 }
