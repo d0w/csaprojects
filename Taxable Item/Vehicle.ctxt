@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Vehicle\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=dealerCost\ dealerMarkup\ rate
+comment1.target=Vehicle(double,\ double,\ double)
+comment2.params=x
+comment2.target=void\ changeRate(double)
+comment3.params=x
+comment3.target=void\ changeCost(double)
+comment4.params=x
+comment4.target=void\ changeMarkup(double)
+comment5.params=
+comment5.target=double\ getPurchasePrice()
+comment6.params=
+comment6.target=double\ getListPrice()
+numComments=7

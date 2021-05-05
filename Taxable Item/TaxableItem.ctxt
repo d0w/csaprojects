@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TaxableItem
+comment0.text=\r\n\ Abstract\ class\ TaxableItem\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=
+comment1.target=double\ getListPrice()
+comment2.params=rate
+comment2.target=TaxableItem(double)
+comment3.params=
+comment3.target=double\ purchasePrice()
+numComments=4
