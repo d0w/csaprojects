@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Bacteria
+comment0.text=\r\n\ \r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=Bacteria()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Sets\ location\ to\ right\ of\ screen\ and\ removes\ once\ reaches\ left\ of\ screen\r\n\ Moves\ slowly\ to\ the\ left\ and\ turns\ \r\n
+comment3.params=
+comment3.target=int\ getMissed()
+numComments=4
