@@ -12,8 +12,13 @@ import greenfoot.*;
 public class Rocket extends SmoothMover
 {
     private static final int gunReloadTime = 5;         // The minimum delay between firing the gun.
+    private static final int protonReload = 100;
 
     private int reloadDelayCount;               // How long ago we fired the gun the last time.
+    private int protonDelay;
+    private int shots;
+    private boolean canFire;
+    private int counter;
 
     private GreenfootImage rocket = new GreenfootImage("rocket.png");    
     private GreenfootImage rocketWithThrust = new GreenfootImage("rocketWithThrust.png");
@@ -24,8 +29,12 @@ public class Rocket extends SmoothMover
     public Rocket()
     {
         reloadDelayCount = 5;
+        protonDelay = 10;
         Vector force = new Vector(Greenfoot.getRandomNumber(360), 0.7);
         addToVelocity(force);
+        shots = 0;
+        canFire = true;
+        counter = 0;
     }
 
     /**
@@ -36,8 +45,31 @@ public class Rocket extends SmoothMover
     {
         checkKeys();
         reloadDelayCount++;
+        protonDelay++;
         move();
         checkCollision();
+        if (!canFire) {
+
+            counter++;
+        }
+        if (counter > 50) {
+            canFire = true;
+            counter = 0;
+        }
+        reload();
+    }
+    
+    private void reload() {
+        if (canFire) {
+            GreenfootImage rocket = this.getImage();
+            rocket.setTransparency(255);
+            setImage(rocket);
+        }
+        if (!canFire) {
+            GreenfootImage rocket = this.getImage();
+            rocket.setTransparency(100);
+            setImage(rocket);
+        }
     }
 
     private void ignite(boolean param) {
@@ -63,9 +95,14 @@ public class Rocket extends SmoothMover
             space.gameOver();
         }
     }
-    
+
     public void startProtonWave() {
-        getWorld().addObject(new ProtonWave(), getX(), getY());
+        if (protonDelay >= protonReload) 
+        {
+            getWorld().addObject(new ProtonWave(), getX(), getY());
+            protonDelay = 0;
+        }
+
     }
 
     /**
@@ -73,9 +110,11 @@ public class Rocket extends SmoothMover
      */
     private void checkKeys() 
     {
-        if (Greenfoot.isKeyDown("space")) 
-        {
-            fire();
+        if (canFire) {
+
+            if (Greenfoot.isKeyDown("space")) {
+                fire();
+            }
         }
         if (Greenfoot.isKeyDown("left")) {
             turn(-5);
@@ -105,7 +144,18 @@ public class Rocket extends SmoothMover
             getWorld().addObject (bullet, getX(), getY());
             bullet.move ();
             reloadDelayCount = 0;
+            if (canFire) {
+                shots++;
+                if (shots > 40) {
+                    canFire = false;
+                    shots = 0;
+                }
+            }
+
         }
+
+        
+
     }
 
 }
