@@ -13,6 +13,7 @@ public class Asteroid extends SmoothMover
 
     /** When the stability reaches 0 the asteroid will explode */
     private int stability;
+    private boolean quick;
 
 
     /**
@@ -32,6 +33,12 @@ public class Asteroid extends SmoothMover
         setSize(size);
     }
     
+    public void checkEdge() {
+        if (this.getX() == 0) {
+            getWorld().removeObject(this);
+        }
+    }
+    
     /**
      * Create an asteroid with a given size and direction of movement.
      */
@@ -40,10 +47,20 @@ public class Asteroid extends SmoothMover
         super(velocity);
         setSize(size);
     }
+    public Asteroid(int size, Vector velocity, boolean fast)
+    {
+        super(velocity);
+        setSize(size);
+        quick = fast;
+    }
+    
     
     public void act()
     {         
         move();
+        if (quick) {
+            checkEdge();
+        }
     }
 
     /**

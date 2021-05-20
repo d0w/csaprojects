@@ -1,4 +1,5 @@
-;import greenfoot.*;
+
+import greenfoot.*;
 
 /**
  * Space. Something for rockets to fly in.
@@ -11,6 +12,7 @@ public class Space extends World
     private Counter scoreCounter;
     private int startAsteroids = 3;
     private int score;
+    private int counter;
 
     /**
      * Create the space and all objects within it.
@@ -24,6 +26,7 @@ public class Space extends World
 
         createStars(40);
         score = 0;
+        counter = 0;
 
         Rocket rocket = new Rocket();
         addObject(rocket, getWidth()/2 + 100, getHeight()/2);
@@ -35,6 +38,22 @@ public class Space extends World
 
         Explosion.initializeImages();
         ProtonWave.initializeImages();
+    }
+
+    public void act() {
+        
+        if (Greenfoot.getRandomNumber(200) < 1) {
+            int temp = counter;
+            int vertical = Greenfoot.getRandomNumber(getHeight());
+            Warning warn = new Warning(25);
+            addObject(warn, getWidth() - 20, vertical);
+
+            addObject(new Asteroid(25, new Vector(359,3), true), 0, 
+                vertical);
+
+            
+
+        }
     }
 
     /**
@@ -64,13 +83,12 @@ public class Space extends World
                 Greenfoot.getRandomNumber(getHeight()), 2, 2);
         }
     }
-    
+
     public void addScore(int val) {
         scoreCounter.add(val);
         score += val;
-        
+
     }
-        
 
     /**
      * This method is called when the game is over to display the final score.
