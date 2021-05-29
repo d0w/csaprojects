@@ -2,10 +2,7 @@
  * A 2D vector. The vector can be read and manipulated in Cartesian coordinates
  * (as an x,y-offset pair) or in polar coordinates (as a direction and a length).
  * 
- * @author Poul Henriksen
- * @author Michael Kölling
- * 
- * @version 2.2
+ * @version 5-16-2021
  */
 public final class Vector
 {

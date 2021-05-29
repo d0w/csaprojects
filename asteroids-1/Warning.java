@@ -1,10 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Warning here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Warning sign that appears when a "loose" asteroid appears
  */
 public class Warning extends Actor
 {

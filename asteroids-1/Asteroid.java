@@ -2,9 +2,6 @@ import greenfoot.*;
 
 /**
  * A rock in space.
- * 
- * @author Poul Henriksen
- * @author Michael Kölling
  */
 public class Asteroid extends SmoothMover
 {

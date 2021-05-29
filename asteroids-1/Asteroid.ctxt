@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Asteroid
-comment0.text=\r\n\ A\ rock\ in\ space.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n
+comment0.text=\r\n\ A\ rock\ in\ space.\r\n
 comment1.params=
 comment1.target=Asteroid()
 comment1.text=\r\n\ Create\ an\ asteroid\ with\ default\ size\ and\ random\ direction\ of\ movement.\r\n

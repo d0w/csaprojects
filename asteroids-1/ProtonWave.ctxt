@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=ProtonWave
-comment0.text=\r\n\ A\ proton\ wave\ that\ expands\ and\ destroys\ asteroids\ in\ its\ path.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 0.1\r\n
+comment0.text=\r\n\ A\ proton\ wave\ that\ expands\ and\ destroys\ asteroids\ in\ its\ path.\r\n
 comment1.params=
 comment1.target=ProtonWave()
 comment1.text=\r\n\ Create\ a\ new\ proton\ wave.\r\n

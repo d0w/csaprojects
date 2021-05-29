@@ -2,9 +2,6 @@ import greenfoot.*;
 import java.util.*;
 /**
  * A proton wave that expands and destroys asteroids in its path.
- * 
- * @author Michael Kölling
- * @version 0.1
  */
 public class ProtonWave extends Actor
 {

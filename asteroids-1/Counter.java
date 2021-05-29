@@ -3,13 +3,6 @@ import greenfoot.*;
 
 /**
  * A Counter class that allows you to display a numerical value on screen.
- * 
- * The Counter is an actor, so you will need to create it, and then add it to
- * the world in Greenfoot.  If you keep a reference to the Counter then you
- * can adjust its value.
- * 
- * @author Neil Brown and Michael Kölling 
- * @version 1.0
  */
 public class Counter extends Actor
 {

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Vector
-comment0.text=\r\n\ A\ 2D\ vector.\ The\ vector\ can\ be\ read\ and\ manipulated\ in\ Cartesian\ coordinates\r\n\ (as\ an\ x,y-offset\ pair)\ or\ in\ polar\ coordinates\ (as\ a\ direction\ and\ a\ length).\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n\ \r\n\ @version\ 2.2\r\n
+comment0.text=\r\n\ A\ 2D\ vector.\ The\ vector\ can\ be\ read\ and\ manipulated\ in\ Cartesian\ coordinates\r\n\ (as\ an\ x,y-offset\ pair)\ or\ in\ polar\ coordinates\ (as\ a\ direction\ and\ a\ length).\r\n\ \r\n\ @version\ 5-16-2021\r\n
 comment1.params=
 comment1.target=Vector()
 comment1.text=\r\n\ Create\ a\ new,\ neutral\ vector.\r\n

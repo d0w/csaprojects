@@ -3,11 +3,6 @@ import greenfoot.*;
 /**
  * A rocket that can be controlled by the arrowkeys: up, left, right.
  * The gun is fired by hitting the 'space' key. 'z' releases a proton wave.
- * 
- * @author Poul Henriksen
- * @author Michael Kölling
- * 
- * @version 1.1
  */
 public class Rocket extends SmoothMover
 {
