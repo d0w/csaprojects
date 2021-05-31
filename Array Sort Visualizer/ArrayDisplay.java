@@ -11,9 +11,6 @@ import java.awt.Dimension;
  * If the act loop is not used while modifying the array, but visualisation is
  * still desired,the update() method can be called explicitly to trigger a visual
  * update of the array state on screen.
- * 
- * @author Michael Kolling
- * @version February, 2014
  */
 public class ArrayDisplay extends Actor
 {

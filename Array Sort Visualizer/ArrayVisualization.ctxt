@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=ArrayVisualization
-comment0.text=\r\n\ An\ array\ sorting\ demo\ class.\ This\ class\ can\ show\ an\ array\ of\ some\ elements,\ and\ \r\n\ implements\ a\ sort\ method.\ The\ sorting\ method\ (and,\ in\ fact,\ the\ array\ creation)\r\n\ can\ be\ called\ interactively\ (by\ right-clicking\ on\ the\ world\ background)\ or\ by\r\n\ running\ this\ scenario.\ Original\ version\ by\ Michael\ Kolling.\r\n\ \r\n\ @author\ A\ Pittman\r\n\ @version\ March,\ 2021\r\n
+comment0.text=\r\n\ An\ array\ sorting\ demo\ class.\ This\ class\ can\ show\ an\ array\ of\ some\ elements,\ and\ \r\n\ implements\ a\ sort\ method.\ The\ sorting\ method\ (and,\ in\ fact,\ the\ array\ creation)\r\n\ can\ be\ called\ interactively\ (by\ right-clicking\ on\ the\ world\ background)\ or\ by\r\n\ running\ this\ scenario.\ Original\ version\ by\ Michael\ Kolling.\r\n
 comment1.params=
 comment1.target=ArrayVisualization()
 comment1.text=\r\n\ Create\ the\ demo\ world.\r\n

@@ -8,9 +8,6 @@ import java.util.Collections;
  * implements a sort method. The sorting method (and, in fact, the array creation)
  * can be called interactively (by right-clicking on the world background) or by
  * running this scenario. Original version by Michael Kolling.
- * 
- * @author A Pittman
- * @version March, 2021
  */
 public class ArrayVisualization extends World
 {

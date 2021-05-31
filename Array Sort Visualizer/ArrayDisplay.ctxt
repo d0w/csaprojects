@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=ArrayDisplay
-comment0.text=\r\n\ An\ ArrayDisplay\ object\ can\ show\ arrays\ in\ the\ world\ by\ displaying\ all\ \r\n\ array\ Elements\ lined\ up\ in\ order.\ At\ every\ act\ step,\ if\ the\ content\ of\ the\r\n\ array\ has\ changed,\ the\ change\ will\ be\ visualised\ by\ the\ ArrayDisplay\ object.\r\n\ \r\n\ If\ the\ act\ loop\ is\ not\ used\ while\ modifying\ the\ array,\ but\ visualisation\ is\r\n\ still\ desired,the\ update()\ method\ can\ be\ called\ explicitly\ to\ trigger\ a\ visual\r\n\ update\ of\ the\ array\ state\ on\ screen.\r\n\ \r\n\ @author\ Michael\ Kolling\r\n\ @version\ February,\ 2014\r\n
+comment0.text=\r\n\ An\ ArrayDisplay\ object\ can\ show\ arrays\ in\ the\ world\ by\ displaying\ all\ \r\n\ array\ Elements\ lined\ up\ in\ order.\ At\ every\ act\ step,\ if\ the\ content\ of\ the\r\n\ array\ has\ changed,\ the\ change\ will\ be\ visualised\ by\ the\ ArrayDisplay\ object.\r\n\ \r\n\ If\ the\ act\ loop\ is\ not\ used\ while\ modifying\ the\ array,\ but\ visualisation\ is\r\n\ still\ desired,the\ update()\ method\ can\ be\ called\ explicitly\ to\ trigger\ a\ visual\r\n\ update\ of\ the\ array\ state\ on\ screen.\r\n
 comment1.params=array
 comment1.target=ArrayDisplay(greenfoot.Actor[])
 comment1.text=\r\n\ Create\ an\ array\ display\ with\ a\ given\ array\ to\ be\ displayed.\ The\ array\r\n\ must\ not\ be\ null.\r\n

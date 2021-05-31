@@ -3,9 +3,6 @@ import greenfoot.*;
 /**
  * An element of the array to be sorted. The Elements have a value that can be
  * used for sorting.
- * 
- * @author APittman
- * @version March, 2021
  */
 public class Element extends Actor
 {

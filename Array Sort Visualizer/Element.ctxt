@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Element
-comment0.text=\r\n\ An\ element\ of\ the\ array\ to\ be\ sorted.\ The\ Elements\ have\ a\ value\ that\ can\ be\r\n\ used\ for\ sorting.\r\n\ \r\n\ @author\ APittman\r\n\ @version\ March,\ 2021\r\n
+comment0.text=\r\n\ An\ element\ of\ the\ array\ to\ be\ sorted.\ The\ Elements\ have\ a\ value\ that\ can\ be\r\n\ used\ for\ sorting.\r\n
 comment1.params=value
 comment1.target=Element(int)
 comment1.text=\r\n\ Create\ an\ element\ with\ a\ given\ value.\ It\ will\ be\ represented\ in\ the\ world\r\n\ as\ a\ vertical\ bar\ with\ a\ height\ proportional\ to\ the\ value.\ \r\n\ \r\n\ @param\ value\ -\ an\ int\ in\ the\ range\ 0\ to\ 255\ inclusive.\r\n
